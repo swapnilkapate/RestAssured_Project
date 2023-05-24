@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="24" passed="24" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-22T17:30:08 IST" name="RestAssuredTestSuite" finished-at="2023-05-22T17:30:14 IST" duration-ms="5757">
+    <groups>
+    </groups>
+    <test started-at="2023-05-22T17:30:08 IST" name="Test" finished-at="2023-05-22T17:30:14 IST" duration-ms="5757">
+      <class name="com.APITestCases.TC_04_PUT_Update_User">
+        <test-method is-config="true" signature="updateUser()[pri:0, instance:com.APITestCases.TC_04_PUT_Update_User@6771beb3]" started-at="2023-05-22T17:30:08 IST" name="updateUser" finished-at="2023-05-22T17:30:10 IST" duration-ms="1807" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUser -->
+        <test-method signature="checkContentType()[pri:0, instance:com.APITestCases.TC_04_PUT_Update_User@6771beb3]" started-at="2023-05-22T17:30:10 IST" name="checkContentType" finished-at="2023-05-22T17:30:10 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method signature="checkResponseBody()[pri:0, instance:com.APITestCases.TC_04_PUT_Update_User@6771beb3]" started-at="2023-05-22T17:30:10 IST" name="checkResponseBody" finished-at="2023-05-22T17:30:10 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method signature="checkResponseTime()[pri:0, instance:com.APITestCases.TC_04_PUT_Update_User@6771beb3]" started-at="2023-05-22T17:30:10 IST" name="checkResponseTime" finished-at="2023-05-22T17:30:10 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="checkStatusCode()[pri:0, instance:com.APITestCases.TC_04_PUT_Update_User@6771beb3]" started-at="2023-05-22T17:30:10 IST" name="checkStatusCode" finished-at="2023-05-22T17:30:10 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkStatusLine()[pri:0, instance:com.APITestCases.TC_04_PUT_Update_User@6771beb3]" started-at="2023-05-22T17:30:10 IST" name="checkStatusLine" finished-at="2023-05-22T17:30:10 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+      </class> <!-- com.APITestCases.TC_04_PUT_Update_User -->
+      <class name="com.APITestCases.TC_03_Post_new_User_Record">
+        <test-method is-config="true" signature="registerUser()[pri:0, instance:com.APITestCases.TC_03_Post_new_User_Record@5b7a5baa]" started-at="2023-05-22T17:30:13 IST" name="registerUser" finished-at="2023-05-22T17:30:14 IST" duration-ms="717" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerUser -->
+        <test-method signature="checkContentType()[pri:0, instance:com.APITestCases.TC_03_Post_new_User_Record@5b7a5baa]" started-at="2023-05-22T17:30:14 IST" name="checkContentType" finished-at="2023-05-22T17:30:14 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method signature="checkResponseBody()[pri:0, instance:com.APITestCases.TC_03_Post_new_User_Record@5b7a5baa]" started-at="2023-05-22T17:30:14 IST" name="checkResponseBody" finished-at="2023-05-22T17:30:14 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method signature="checkResponseTime()[pri:0, instance:com.APITestCases.TC_03_Post_new_User_Record@5b7a5baa]" started-at="2023-05-22T17:30:14 IST" name="checkResponseTime" finished-at="2023-05-22T17:30:14 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="checkStatusCode()[pri:0, instance:com.APITestCases.TC_03_Post_new_User_Record@5b7a5baa]" started-at="2023-05-22T17:30:14 IST" name="checkStatusCode" finished-at="2023-05-22T17:30:14 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkStatusLine()[pri:0, instance:com.APITestCases.TC_03_Post_new_User_Record@5b7a5baa]" started-at="2023-05-22T17:30:14 IST" name="checkStatusLine" finished-at="2023-05-22T17:30:14 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+      </class> <!-- com.APITestCases.TC_03_Post_new_User_Record -->
+      <class name="com.APITestCases.TC_01_GET_All_User_Details">
+        <test-method is-config="true" signature="getAllUsersDetails()[pri:0, instance:com.APITestCases.TC_01_GET_All_User_Details@5bf0d49]" started-at="2023-05-22T17:30:12 IST" name="getAllUsersDetails" finished-at="2023-05-22T17:30:13 IST" duration-ms="681" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllUsersDetails -->
+        <test-method signature="checkResponseBody()[pri:0, instance:com.APITestCases.TC_01_GET_All_User_Details@5bf0d49]" started-at="2023-05-22T17:30:13 IST" name="checkResponseBody" finished-at="2023-05-22T17:30:13 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method signature="checkResponseTime()[pri:0, instance:com.APITestCases.TC_01_GET_All_User_Details@5bf0d49]" started-at="2023-05-22T17:30:13 IST" name="checkResponseTime" finished-at="2023-05-22T17:30:13 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="checkStatusCode()[pri:0, instance:com.APITestCases.TC_01_GET_All_User_Details@5bf0d49]" started-at="2023-05-22T17:30:13 IST" name="checkStatusCode" finished-at="2023-05-22T17:30:13 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkStatusLine()[pri:0, instance:com.APITestCases.TC_01_GET_All_User_Details@5bf0d49]" started-at="2023-05-22T17:30:13 IST" name="checkStatusLine" finished-at="2023-05-22T17:30:13 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+      </class> <!-- com.APITestCases.TC_01_GET_All_User_Details -->
+      <class name="com.APITestCases.TC_02_Get_Single_User_Details">
+        <test-method is-config="true" signature="getAllUsersDetails()[pri:0, instance:com.APITestCases.TC_02_Get_Single_User_Details@776aec5c]" started-at="2023-05-22T17:30:14 IST" name="getAllUsersDetails" finished-at="2023-05-22T17:30:14 IST" duration-ms="674" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllUsersDetails -->
+        <test-method signature="checkContentEncoding()[pri:0, instance:com.APITestCases.TC_02_Get_Single_User_Details@776aec5c]" started-at="2023-05-22T17:30:14 IST" name="checkContentEncoding" finished-at="2023-05-22T17:30:14 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentEncoding -->
+        <test-method signature="checkContentType()[pri:0, instance:com.APITestCases.TC_02_Get_Single_User_Details@776aec5c]" started-at="2023-05-22T17:30:14 IST" name="checkContentType" finished-at="2023-05-22T17:30:14 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method signature="checkResponseBody()[pri:0, instance:com.APITestCases.TC_02_Get_Single_User_Details@776aec5c]" started-at="2023-05-22T17:30:14 IST" name="checkResponseBody" finished-at="2023-05-22T17:30:14 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method signature="checkResponseTime()[pri:0, instance:com.APITestCases.TC_02_Get_Single_User_Details@776aec5c]" started-at="2023-05-22T17:30:14 IST" name="checkResponseTime" finished-at="2023-05-22T17:30:14 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="checkStatusCode()[pri:0, instance:com.APITestCases.TC_02_Get_Single_User_Details@776aec5c]" started-at="2023-05-22T17:30:14 IST" name="checkStatusCode" finished-at="2023-05-22T17:30:14 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkStatusLine()[pri:0, instance:com.APITestCases.TC_02_Get_Single_User_Details@776aec5c]" started-at="2023-05-22T17:30:14 IST" name="checkStatusLine" finished-at="2023-05-22T17:30:14 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+      </class> <!-- com.APITestCases.TC_02_Get_Single_User_Details -->
+      <class name="com.APITestCases.TC_05_Delete_user">
+        <test-method is-config="true" signature="getAllUsersDetails()[pri:0, instance:com.APITestCases.TC_05_Delete_user@175c2241]" started-at="2023-05-22T17:30:10 IST" name="getAllUsersDetails" finished-at="2023-05-22T17:30:12 IST" duration-ms="1770" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllUsersDetails -->
+        <test-method signature="checkResponseBody()[pri:0, instance:com.APITestCases.TC_05_Delete_user@175c2241]" started-at="2023-05-22T17:30:12 IST" name="checkResponseBody" finished-at="2023-05-22T17:30:12 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method signature="checkResponseTime()[pri:0, instance:com.APITestCases.TC_05_Delete_user@175c2241]" started-at="2023-05-22T17:30:12 IST" name="checkResponseTime" finished-at="2023-05-22T17:30:12 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="checkStatusCode()[pri:0, instance:com.APITestCases.TC_05_Delete_user@175c2241]" started-at="2023-05-22T17:30:12 IST" name="checkStatusCode" finished-at="2023-05-22T17:30:12 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkStatusLine()[pri:0, instance:com.APITestCases.TC_05_Delete_user@175c2241]" started-at="2023-05-22T17:30:12 IST" name="checkStatusLine" finished-at="2023-05-22T17:30:12 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+      </class> <!-- com.APITestCases.TC_05_Delete_user -->
+    </test> <!-- Test -->
+  </suite> <!-- RestAssuredTestSuite -->
+</testng-results>
