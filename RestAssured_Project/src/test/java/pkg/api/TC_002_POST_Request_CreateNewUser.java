@@ -21,7 +21,7 @@ public class TC_002_POST_Request_CreateNewUser {
 		
 		// Request payload sending along with post request
 		JSONObject requestParams = new JSONObject();
-	    	
+	    
 	    requestParams.put("name", "morpheus");
 		requestParams.put("job", "leader");
 		
@@ -32,6 +32,8 @@ public class TC_002_POST_Request_CreateNewUser {
 		
 		// Response object and sending the post request
 		Response response = httprequest.request(Method.POST,"/users");
+			//OR
+		//Response response = httprequest.post("/users");
 		
 		// Print response in console
 		String resbody = response.getBody().asString();
@@ -45,6 +47,8 @@ public class TC_002_POST_Request_CreateNewUser {
 		// verify id is present in response
 		String id = response.jsonPath().get("id");
 		System.out.println(id);
+		
+		System.out.println(response.asPrettyString());
 		
 	}	
 	

@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.api.basecom.API.TestCases.TC_05_Delete_user">
+      <class name="pkg.api.TC_002_POST_Request_CreateNewUser">
         <methods>
-          <include name="getAllUsersDetails"/>
-          <include name="checkResponseTime"/>
+          <include name="registerUser"/>
         </methods>
-      </class> <!-- com.api.basecom.API.TestCases.TC_05_Delete_user -->
+      </class> <!-- pkg.api.TC_002_POST_Request_CreateNewUser -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
